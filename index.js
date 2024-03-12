@@ -1,13 +1,27 @@
-const str = 'phanteon'
+// const someFunc = (a, b, c) => {
+ //   return Math.sqrt(a + b + c)
+//}
 
-console.log(str.charAt(4))
+//console.log(someFunc(8, 8, 8))
 
-const func1 = (index,str) => {
-    return str[index]
+
+//Ex 2
+
+//const someFunc = (string) => {
+ //   const index = Math.floor(Mmath.random() * string.length )
+  //  return string[index]
+
+//}
+//console.log(someFunc('string'))
+//console.log(someFunc('string'))
+//console.log(someFunc('string'))
+//console.log(someFunc('string'))
+//console.log(someFunc('string'))
+
+//Ex 3 doua stringuri concatenate
+
+const someFunc = (str1, str2) => {
+    return str1 + str2
+
 }
-
-console.log(func1(4, str))
-
-console.log(func1(5,str))
-console.log(func1(0,str))
-console.log(func1(7,str))
+console.log(someFunc('Buongiorno' , 'Mondo'))
